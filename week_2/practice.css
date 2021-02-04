@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    padding: 40px;
+    /* Here's the CSS line, also available on Google Fonts website below the links */
+    font-family: 'Krub', sans-serif;
+}
+.no_dot {
+    list-style-type: none;
+}
+
+ul > li > ul{
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+ul > ul {
+    margin-left: 20px;
+}
